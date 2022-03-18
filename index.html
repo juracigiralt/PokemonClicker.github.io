@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokemonClicker</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+    <div id="paginainicial" class="paginaincial">
+
+                <div class="inicio1"></div>
+            <div class="inicio">    
+                <div class="inicio2"></div>
+                <div class="inicio3">
+                    <ul>
+                        <li onclick="fuerapaginainicial(), printpokemon01()" class="ula2"><img class="imgMejoras" src="IMG/SpritesPokemon/4.png"  alt="" srcset="">Charmander</li>
+                        <li onclick="fuerapaginainicial(), printpokemon02()" class="ula2"><img class="imgMejoras" src="IMG/SpritesPokemon/1.png" alt="" srcset="">Bulbasaur</li>
+                        <li onclick="fuerapaginainicial(), printpokemon03()" class="ula2"><img class="imgMejoras" src="IMG/SpritesPokemon/7.png" alt="" srcset="">Squirtle</li>
+                    </ul>
+                </div>
+                <div class="inicio4"></div>
+                <div class="inicio5"><h1 class="escojeinicial">Escoje a tu incial . . .</h1></div><span class="escojeinicialaim"></span><span class="borderinicio"></span>
+            </div>
+
+    </div>
+        <div id="gamearea" class="gamearea">
+            <div class="divlideres">
+                <ul>
+                    <li onclick="printpokemongym1()" class="lideres"><img src="IMG/SpritesLideres/1.png" alt="" srcset="">BROOK</li>
+                    <li onclick="printpokemongym2()" class="lideres"><img src="IMG/SpritesLideres/2.png" alt="" srcset="">MISTY</li>
+                    <li onclick="printpokemongym3()" class="lideres"><img src="IMG/SpritesLideres/3.png" alt="" srcset="">LT.SURGE</li>
+                    <li onclick="printpokemongym4()" class="lideres"><img src="IMG/SpritesLideres/4.png" alt="" srcset="">ERIKA</li>
+                    <li onclick="printpokemongym5()" class="lideres"><img src="IMG/SpritesLideres/5.png" alt="" srcset="">KOGA</li>
+                    <li onclick="printpokemongym6()" class="lideres"><img src="IMG/SpritesLideres/6.png" alt="" srcset="">SABRINA</li>
+                    <li onclick="printpokemongym7()" class="lideres"><img src="IMG/SpritesLideres/7.png" alt="" srcset="">BLAINE</li>
+                    <li onclick="printpokemongym8()" class="lideres"><img src="IMG/SpritesLideres/8.png" alt="" srcset="">GIOVANNI</li>
+                </ul>
+            </div>
+            <div class="main" >
+                <div class="clickerArea">
+                    <div class="fondoclicarea">
+                        <div class="score2">
+                            <div class="score" >
+                                <img class="pokeballIcon" src="IMG/Recursos/pokeballred2.png" alt="">:<p id="contador"></p>
+                            </div>  
+                        </div>
+                        <div class="pokeball" onclick="clic(), ballsxclics()">
+                        </div> 
+                    </div>
+                </div>
+                <div class="pokemonList">
+                    <ul id="idlist">
+                        
+                    </ul>
+                </div>
+                <div class="PokemonListOptions">
+                    <ul id="Mejoras">
+
+                    </ul>
+                </div>
+                <div class="logrosList" id="logros">
+                </div>
+            </div>
+            <div id="menuu" class="menu">
+      
+        </div>
+    <script src="js.js"></script>
+</body>
+</html>
